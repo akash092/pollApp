@@ -32,6 +32,7 @@ ALLOWED_HOSTS = ['dev-env.eba-psjn5vhy.us-west-2.elasticbeanstalk.com','127.0.0.
 
 INSTALLED_APPS = [
     'polls.apps.PollsConfig',
+    'widget_tweaks',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
